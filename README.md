@@ -1,9 +1,5 @@
 # Enterprise Data Lakehouse for Unified Marketing Analytics
 
-> **Academic Project** — M.Sc. Data Science | Kalasalingam Academy of Research and Education (CDOE)
-> **Student:** Praveen K (9223146010) | **Batch:** 2025–26
-
----
 
 ## Problem Statement
 
@@ -167,18 +163,6 @@ to the Delta parquet files and explore the marketing dashboards.
 - ACID-compliant Delta Lake with schema enforcement and version history
 - Power BI dashboards for CLV, ROI, campaign performance, and sales forecasting
 - Fully reproducible via Docker — no environment setup beyond Docker Desktop
-
----
-
-## Academic Details
-
-| Field | Detail |
-|---|---|
-| Degree | M.Sc. Data Science (MSc DS) |
-| Institution | Kalasalingam Academy of Research and Education |
-| Department | Centre for Distance and Online Education (CDOE) |
-| Faculty Advisor | Dr. T. Marimuthu, Deputy Director — CDOE |
-| Viva Voce | 05 October 2025 |
 
 ---
 

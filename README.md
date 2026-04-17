@@ -14,6 +14,10 @@ This project solves that by building an **automated, containerised Data Lakehous
 cleans, joins, and visualises both datasets in a single unified pipeline.
 
 ---
+## Dataflow Diagram
+<img width="1536" height="600" alt="dfd" src="https://github.com/user-attachments/assets/38ce80c8-70ac-4794-b939-a8d5cfd2f94c" />
+
+---
 
 ## Architecture (High Level)
 

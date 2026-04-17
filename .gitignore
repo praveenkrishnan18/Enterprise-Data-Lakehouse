@@ -1,0 +1,35 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# ── Jupyter checkpoints ───────────────────────────────────────────────────────
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# ── Data files (large / sensitive — regenerate locally by running the pipeline)
+storage/raw_data/
+storage/processed_data/
+storage/delta_lake/
+
+# ── Delta table artefacts inside notebooks folder ────────────────────────────
+spark_docker/notebooks/delta_hubspot/
+spark_docker/notebooks/delta_mailchimp/
+spark_docker/notebooks/delta_lake/
+spark_docker/notebooks/*.csv
+spark_docker/notebooks/*.parquet
+spark_docker/notebooks/*.crc
+
+# ── Power BI (binary, large) ──────────────────────────────────────────────────
+analytics/*.pbix
+
+# ── Airbyte binary (65 MB) ───────────────────────────────────────────────────
+ingestion/airbyte/bin/abctl.exe
+
+# ── OS files ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
